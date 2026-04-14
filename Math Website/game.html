@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="stats">
+    <div class="timer">Timer: <span id="timerScreen"> 120</span> </div>
+    <div class="score">Score: <span id="display"> 0</span></div>
+    </div>
+
+    <div class="gameArea">
+        <div class="gameContent">
+        <span id="currentQuestion">Question Here</span>  
+        <input type="text" id="user-input" class="answer" >
+        </div>
+    </div>
+
+    <div id="gameOver">
+        <h1>Game Over!</h1>
+        <h2>Score:<span id="finalScore">0</span> </h2>
+        <div>
+        <a href="game.html"><button class="button">Try Again</button></a>
+        <a href="index.html"><button class="button">Change Settings</button></a>
+        </div>
+    </div>
+
+
+    <script src="game.js" defer></script>
+</body>
+</html>

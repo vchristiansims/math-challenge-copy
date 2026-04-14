@@ -1,0 +1,41 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(246, 232, 229); 
+    display:flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.box{
+    padding:2rem;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    align-items:left;
+    background-color: rgb(253, 253, 253);
+}
+
+.selection{
+    text-align:left;
+}
+
+.inputs{
+    height: 20px;
+    width: 5ch;
+    text-align:center;
+}
+
+.submit{
+    font-weight:bold;
+    padding: 5px 7px;
+    text-align:center;
+    background-color: pink;
+    border-radius:5px;
+}
+
